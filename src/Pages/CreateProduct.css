@@ -1,0 +1,61 @@
+.craete{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e9eef5be;
+}
+
+.craete h2{
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.craete form{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: #E9EEF5;
+    box-shadow: 0 0 10px #767575db;
+    border-radius: 5px;
+}
+
+.craete form label{
+    font-weight: 600;
+    color: #727272;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.craete form input{
+    margin-bottom: 15px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #bcbcbc94;
+    padding-left: 15px;
+    outline: none;
+}
+
+.craete form textarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    border: 1px solid #bcbcbc94;
+    padding: 15px;
+    outline: none;
+}
+
+.craete form button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: var(--footer-color);
+    color: #fff;
+    border-radius: 8px;
+}

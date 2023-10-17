@@ -1,0 +1,147 @@
+.shop{
+    padding: 50px 0;
+}
+
+.shop .cat h4{
+    margin: 8px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.shop .cat ul{
+    padding: 0;
+} 
+
+.shop .cat ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 12px 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.shop .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.shop .header h3{
+    text-transform: capitalize;
+}
+.shop .header .btns{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.shop .header .btns button{
+    width: 19%;
+    height: 45px;
+    border-radius: 8px;
+    background-color: var(--min-color);
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border: none;
+    transition: all .5s;
+}
+
+.shop .header .btns button:hover{
+    background-color: #0d5720;
+}
+
+.shop .content{
+    min-height: 70vh;
+}
+
+.shop .content .card{
+    box-shadow: 0 0 10px #b6b5b5d1;
+    border: none;
+}
+
+.shop .content .card .img{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.shop .content .card .img .icon-link{
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;;
+    opacity: 0;
+}
+.shop .content .card .img .icon-link .icon{
+    width: 40px;
+    height: 40px;
+    background-color: var(--min-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.shop .content .card .img .icon-link .icon a{
+    color: #fff;
+}
+
+.shop .content .card .img:hover .icon-link{
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.shop .content .card .img img{
+    width: 70%;
+}
+
+.shop .content .card .text {
+    height: 200px;
+    border-top: 1px solid #b9b1b14e;
+}
+
+.shop .content .card .text h5{
+    font-size: 15px;
+    text-transform: capitalize;
+    
+}
+.shop .content .card .text p{
+    color: #706e6e;
+    margin: 15px 0;
+    font-size: 13px;
+    overflow-y: scroll;
+    height: 50px;
+    border: 1px solid #aeaeae23;
+    border-radius: 7px;
+}
+
+.shop .content .card .text p::-webkit-scrollbar{
+    display: none;
+}
+
+.shop .content .card .text span{
+    font-size: 15px;
+    color: #555;
+    font-weight: 600;
+
+}
